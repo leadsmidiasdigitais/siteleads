@@ -1,0 +1,150 @@
+@use '../root' as *;
+@use '../utilities' as *;
+
+
+.counter-box-wrapper {
+    &.style1 {
+        padding: 128px 0px;
+        @include flex;
+        justify-content: space-between;
+    
+        @include breakpoint (max-xl) {
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: initial;
+        }
+    
+        @include breakpoint (max-sm) {
+            gap: 30px;
+        }    
+    }
+    &.style2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    
+        @include breakpoint (max-xl) {
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: initial;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include breakpoint (max-lg) {
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+        @include breakpoint (max-md) {
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+    
+        @include breakpoint (max-sm) {
+            gap: 30px;
+        }
+    }
+}
+
+.counter-box {
+    &.style1 {
+        @include flex;
+        gap: 20px;
+        justify-content: space-between;
+        position: relative;
+    
+        @include breakpoint (max-xl) {
+            flex-wrap: wrap;
+        }
+    
+        &:not(:last-child) {
+            border-right: 1px solid rgba(255, 255, 255, 0.3);
+            padding-right: 100px;
+    
+            @include breakpoint (max-xxl) {
+                border: none;
+            }
+    
+            @include breakpoint (max-xl) {
+                border: none;
+                height: initial;
+                padding: 0;
+            }
+        }
+    
+        h3 {                
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $white-color;
+            font-family: $title-font;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 93.5px; 
+            color: transparent;
+
+            @include breakpoint (max-md) {
+                font-size: 50px;
+            }
+        }
+    
+        h6 {
+            color: $white-color;                
+            font-family: $body-font;
+            font-size: 18.281px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px;
+            opacity: 0.9;
+        }
+    }       
+    
+    &.style2 {
+        @include flex;
+        gap: 20px;
+        flex-direction: column;
+        position: relative;
+        background: $theme-color;
+        padding: 30px 30px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        &:not(:last-child) {
+
+            @include breakpoint (max-xxl) {
+                border: none;
+            }
+
+            @include breakpoint (max-xl) {
+                border: none;
+                height: initial;
+            }
+        }
+
+        h3 {                
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $white-color;
+            font-family: $title-font;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 93.5px; 
+            color: transparent;
+
+            @include breakpoint (max-md) {
+                font-size: 60px;
+            }
+        }
+
+        h6 {
+            color: $white-color;                
+            font-family: $body-font;
+            font-size: 18.281px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px;
+        }
+    }
+}
