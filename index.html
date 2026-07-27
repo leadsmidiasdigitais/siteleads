@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<!--<< Header Area >>-->
+<head>
+    <!-- ========== Meta Tags ========== -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Leads Mídias Digitais">
+	<meta name="keywords" content="tráfego pago, marketing digital, criação de sites, landing page, presença digital">
+	<meta name="description" content="Criamos estratégias digitais alinhadas ao momento do seu negócio. Sites, tráfego pago, presença digital e estrutura para crescimento.">
+	<meta name="robots" content="index, follow">
+    <!-- Meta Título (Title) -->
+	<title> Leads Mídias Digitais | Estratégias Digitais para Negócios </title>
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Leads Mídias Digitais | Estratégias Digitais para Negócios">
+	<meta property="og:description" content="Criamos estratégias digitais alinhadas ao momento do seu negócio.">
+	<meta property="og:image" content="https://leadsmidiasdigitais.com/assets/images/icon/logoleadsx.png">
+	<meta property="og:url" content="https://leadsmidiasdigitais.com">
+	<meta property="og:site_name" content="Leads Mídias Digitais">
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/faviconleads.png">
+	<!--<< canonical >>-->
+	<link rel="canonical" href="https://leadsmidiasdigitais.com">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< NiceSelect.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+	<!-- MultiStep-->
+	<style>
+	.step{
+	display:none;
+	animation:fade .4s ease;
+	}
+
+	.step.active{
+	display:block;
+	}
+
+	@keyframes fade{
+	from{
+	opacity:0;
+	transform:translateY(10px);
+	}
+	to{
+	opacity:1;
+	transform:translateY(0);
+	}
+	}
+
+	</style>
+	<!-- Multi Step fim -->
+</head>
+
+<body>
+    <!-- Mouse Cursor Start -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Back To Top Start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+	
+    <!-- Hero Section Three Start-->
+    <section class="hero-section pt-15 fix bg-cover3">
+	
+        <div class="hero-container-wrapper style3 padding-bottom-535 pt-60">
+		<div class="sub-title center "><img src="assets/logoleadsx.png" alt="icon"></div><div class="mb-20"></div>
+            <div class="container">
+			<div class="title-area mb-40 ">
+				<p class="stat-title text-center ">"Cada negócio está em um momento diferente — e crescer exige estratégias compatíveis com sua realidade atual.”</p>
+               </div><div class="mb-20"></div>
+            <div class="about-wrapper style1">
+                <div class="row g-5">					
+					<div class="col-lg-6 col-md-6 desktop-only ">
+					<!--Card-->
+						<div class="about-card mt-0 ">
+                            <div class="dot-rectangle">
+                                <img src="assets/dotRectangle.svg" alt="squire">
+                            </div>
+                            <div class="stats-card">
+							<div class="section-title title-area pb-10">
+								<div class="subtitle center"> <span"><span style="color:#FAD02C">Qual o nível</span></span>
+								</div><h1 class="title center" > Do Seu negócio hoje? </h1> 
+							</div>
+                                <p class="stat-title ">"Muitas empresas tentam crescer investindo mais.
+									Poucas param para entender o que realmente precisa ser estruturado primeiro.”</p><div class="mb-20"></div>
+									<p> — Essa análise foi criada justamente para identificar esse cenário.</p>
+									<div class="mb-20"></div><p class= "center"><strong> <span style="color:#FAD02C">São 04 perguntas</span> rápidas para entendermos seu momento.</strong></p>
+                            </div>
+                        </div>
+						<!--Card-->
+					</div>
+				
+					
+				<!-- formulario inicio -->
+					<div class="col-lg-6" Id="contato">
+                        
+								<div class="contact-form style3">
+								<div class="section-title title-area pb-10">
+								<div class="subtitle"><span id="form-subtitle">Comece aqui</span>
+								</div><h2 class="title" id="form-title"> Análise Digital</h2>
+								<P id="tempo-form"><span style="color:#FAD02C"><strong>Leva menos de 1 minuto</strong></span> para concluir.</p>
+								</div>
+								<div class="mb-20"></div>
+								<div class="input-field">
+								<!-- Multi step-->
+								<form id="leadForm"> <input type="hidden" name="cliente" value="Leads">
+								<input type="hidden" id="origemLead" value="site">
+								<div class="multi-step-form">
+								<!-- ETAPA 1 -->
+								<div class="step active">
+								<div class="form-clt mb-4">
+								<div class="subtitle"> Negócios em momentos diferentes precisam de <span style="color:#FAD02C"> estratégias completamente diferentes. </span>
+								</div>
+								<div class="mb-20"></div>
+								<select id="momento" name="momento" class="form-select" required>
+								<option value=""> Qual nível do seu negócio hoje?</option>
+								<option value="Estou começando agora">Estou começando agora</option>
+								<option value="Já tenho algo rodando">Já tenho algo rodando</option>
+								</select>
+								</div>								
+								<button type="button" class="ct-btn style4" onclick="proximaEtapa()"> Passo 1/4 </button>
+								</div>
+								<!-- ETAPA 2 -->
+								<div class="step">
+								<div class="form-clt mb-4">
+								<div class="subtitle"> <span class="step-subtitle">Agora queremos entender qual resultado faria <span style="color:#FAD02C"> mais sentido para você hoje.</span></span>
+								</div><div class="mb-20"></div>								
+								<select id="objetivo" name="objetivo" class="form-select" required>
+								<option value="">Qual seu principal objetivo?</option>
+								<option value="Criar presença online">Criar presença online</option>
+								<option value="Organizar meu negócio">Organizar meu negócio</option>
+								<option value="Fazer Tráfego Pago">Fazer Tráfego Pago</option>
+								</select>
+								</div>
+								<div class="d-flex gap-2">
+								<button type="button"class="ct-btn style4"onclick="etapaAnterior()">Voltar</button>
+								<button type="button"class="ct-btn style4"onclick="proximaEtapa()">Passo 2/4</button>
+								</div>
+								</div>
+								<!-- ETAPA 3 -->
+								<div class="step">
+								<div class="form-clt mb-4">
+								<div class="subtitle"> <span class="step-subtitle"> Toda estratégia precisa estar alinhada <span style="color:#FAD02C"> à realidade e ao potencial do negócio.</span></span>
+								</div><div class="mb-20"></div>
+								<select id="investimento" name="investimento" class="form-select" required>
+								<option value="">Qual seu investimento?</option>
+								<option value="R$400 a R$900"> R$400 a R$900</option>
+								<option value="R$1.000 a R$3.000"> R$1.000 a R$3.000</option>
+								<option value="Acima de R$3.000"> Acima de R$3.000</option>
+								</select>
+								</div>
+								<div class="d-flex gap-2">
+								<button type="button"class="ct-btn style4"onclick="etapaAnterior()">Voltar</button>
+								<button type="button"class="ct-btn style4"onclick="proximaEtapa()">Passo 3/4</button>
+								</div>
+								</div>							
+								<!-- ETAPA 4 -->
+								<div class="step">
+								<div class="form-clt mb-4">
+								<div class="subtitle"> <span class="step-subtitle"> Entender sua prioridade ajuda nossa equipe <span style="color:#FAD02C"> a definir o melhor direcionamento.</span></span>
+								</div><div class="mb-20"></div>
+								<select id="urgencia" name="urgencia" class="form-select" required>
+								<option value=""> Qual urgência em começar?</option>
+								<option value="O mais rápido possível"> O mais rápido possível</option>
+								<option value="No próximo mês"> No próximo mês</option>
+								<option value="Só estou pesquisando"> Só estou pesquisando</option>
+								</select>
+								</div>
+								<div class="d-flex gap-2">
+								<button type="button"class="ct-btn style4"onclick="etapaAnterior()">Voltar</button>
+								<button type="button"class="ct-btn style4"onclick="proximaEtapa()">Passo 4/4</button>
+								</div>
+								</div>
+								<!-- ETAPA FINAL -->
+								<div class="step">
+								<div class="row g-4">
+								<div class="subtitle"> <span class="step-subtitle"> Perfeito. Agora precisamos apenas dos seus dados <span style="color:#FAD02C"> para concluir sua análise.</span></span>
+								</div>
+								
+								<div class="col-lg-6">
+								<div class="form-clt">
+								<input type="text" id="nome" required placeholder="Nome Completo">
+								</div>
+								</div>							
+								<div class="col-lg-6">
+								<div class="form-clt">
+								<input type="tel" id="telefone" required placeholder="(00) 99999-9999">
+								</div>
+								</div>
+								<div class="col-lg-12">
+								<div class="form-clt">
+								<input type="email" id="email" required placeholder="E-mail">
+								</div>
+								</div>
+								<div class="col-lg-12">
+								<div class="form-clt">
+								<textarea id="mensagem" required placeholder="Me conte rapidamente o que você faz"></textarea>
+								</div>
+								</div>
+								<div class="col-lg-12"> 
+								<button id="btnEnviar" type="submit" class="ct-btn style4">Enviar para análise<i class="fa-regular fa-arrow-right-long"></i></button>
+								<!--<button type="submit" class="ct-btn style8">Enviar para análise</button>-->
+								</div>
+								
+								</div>
+								</div>
+								</div>
+								
+								</form>
+								<!-- OBRIGADO -->
+								
+						<div id="mensagem-obrigado" style="display:none;">
+						<!--whatsapp-->
+						<div id="whatsapp-prioritario" style="display:none;"><br>
+						<p><span style="color:#FAD02C;"> Qual os proximos passos agora:</span></p><div class="mb-20"></div>
+						<ul class="obrigado-list">
+						<li><i class="fa-regular fa-hand-point-right" style="color:#FAD02C"></i> Seu perfil indica potencial para aceleração mais rápida.
+						Por isso liberamos um contato prioritário direto com nossa equipe.</li> <div class="mb-20"></div>
+						<div class="btn-wrapper center"><a id="botao-whatsapp" href="#" target="_blank" class="ct-btn style4"> Falar agora no WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
+						</div><div class="mb-20"></div>
+						<li><i class="fa-regular fa-circle-check" style="color:green"></i> Caso queira aguardar: O retorno poderá acontecer por e-mail ou WhatsApp.</li>
+						<li><i class="fa-regular fa-circle-check" style="color:green"></i> Nossa equipe irá analisar seu cenário e objetivos.</li>				
+						</ul> <div class="mb-20"></div>
+						</div>
+						<!-- WhatsApp-->
+						<!--Mensagem normal-->
+						<div id="mensagem-normal"> <p><span style="color:#FAD02C;"> Qual os proximos passos agora:</span></p><div class="mb-20"></div>
+						<ul class="obrigado-list">
+						<li><i class="fa-regular fa-circle-check" style="color:green"></i> Nossa equipe irá avaliar seu momento atual, objetivos e potencial de crescimento, antes de indicar qualquer direcionamento.</li>
+						<li><i class="fa-regular fa-circle-check" style="color:green"></i> Se identificarmos aderência ao nosso modelo de atendimento, entraremos em contato.</li><div class="mb-20"></div>
+						<li><i class="fa-regular fa-hand-point-right" style="color:#FAD02C"></i> O retorno poderá acontecer por e-mail ou WhatsApp.</li>
+						</ul>
+						<div class="mb-20"></div>
+						</div>
+						<!--Mensagem normal-->
+						
+						<div class="mb-20"></div>
+						<div class="btn-wrapper center"><a onclick="reiniciarFormulario()" class="ct-btn style4">Preencher novamente<i class="fa-regular fa-arrow-right-long"></i></a>
+						</div>
+						</div>
+						<!-- OBRIGADO -->
+								<!-- Multi step fim -->
+						
+						</div>
+					</div>
+					<!-- fim formulario -->
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--Hero Section Three End-->
+	
+	
+	<!-- Footer Section    S T A R T -->
+      <footer class="footer-section pt-75 bg-theme-color2 fix" id="contato" class="contato">
+        <div class="widget-area style1  pb-40">
+            <div class="container">
+			<div class="section-title title-area pb-10">
+								<div class="title center center mobile-only"><span><h3>Entenda como funciona nossa análise estratégica.</h3></span>
+								</div><div class="mb-20"></div>
+								<div class="subtitle center desktop-only"><span>Cada negócio está em um momento diferente. Por isso, analisamos</span>
+								</div><h3 class="title center desktop-only"> antes de indicar o melhor caminho. </h3> 								
+							</div>		
+							
+				<div class="footer-layout style1">
+					<div class="row g-5">
+					<!-- coluna -->
+						<div class="col-lg-6">
+						<!-- acoordion-->
+						<div class="accordion" id="accordionExample">
+                            <div class="ct-accordion-item style1 mb-20">
+                                <h3 class="ct-accordion-header style1">
+                                    <button class="ct-accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <strong> Como saber qual estratégia meu negócio realmente precisa?</strong>
+                                        <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                        <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                    </button>
+                                </h3>
+                                <div id="collapseOne" class="ct-accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="ct-accordion-body">
+                                        <p> Cada negócio possui um cenário, estrutura e objetivo diferente.
+										Por isso, <span style="color:#FAD02C">antes de indicar qualquer solução, analisamos o momento atual do negócio</span> para entender quais estratégias realmente fazem sentido para aquele estágio de crescimento.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ct-accordion-item style1 mb-20">
+                                <h3 class="ct-accordion-header style1">
+                                    <button class="ct-accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <strong> Meu negócio ainda está começando. Faz sentido investir agora?</strong>
+                                        <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                        <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                    </button>
+                                </h3>
+                                <div id="collapseTwo" class="ct-accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="ct-accordion-body">
+                                        <p> <span style="color:#FAD02C"> Sim — desde que exista clareza sobre o momento atual do negócio.</span>
+										Muitas vezes o primeiro passo não é investir mais, mas estruturar corretamente presença, posicionamento e comunicação<span style="color:#FAD02C"> para evitar desperdício de tempo e dinheiro.</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ct-accordion-item style1">
+                                <h3 class="ct-accordion-header style1">
+                                    <button class="ct-accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <strong> Como funciona a análise digital?</strong>
+                                        <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                        <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                    </button>
+                                </h3>
+                                <div id="collapseThree" class="ct-accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="ct-accordion-body">
+                                        <p> <span style="color:#FAD02C">A análise é feita com base nas respostas do formulário</span>, nos objetivos do negócio e no cenário atual apresentado.
+										<span style="color:#FAD02C">A partir disso avaliamos</span>  quais estratégias fazem mais sentidoantes de indicar qualquer direcionamento.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 
+						<!-- acoordion-->
+						</div>
+						<!-- coluna fim -->
+						<!--coluna-->
+						<div class="col-lg-6 mobile-only">
+						 <div class="widget widget_nav_menu footer-widget ">
+                                <div class="widget footer-widget">
+                                <div class="ct-widget-footer">
+                                    <div class="subtitle center"><span> <p>Sua próxima estratégia começa com entendimento.</p></span>
+								</div><div class="mb-20"></div>
+                                    <div class="btn-wrapper center"> <a href="#contato" class="ct-btn style4"> Começar minha análise <i class="fa-regular fa-arrow-right-long"></i></a>
+						</div>
+
+                                </div>
+                            </div>
+                            </div>						
+						</div>
+						<!--coluna-->
+						<!-- coluna -->
+						 <div class="col-lg-6">
+						 <div class="widget widget_nav_menu footer-widget ">
+                                <div class="widget footer-widget">
+                                <div class="ct-widget-footer">
+                                    <div class="footer-logo center">
+                                        <a href="index.html"><img src="assets/logoleadsx.png"
+                                                alt="leads"></a>
+                                    </div>
+                                    <p class="text"> A Leads Mídias Digitais nasceu com foco em estratégias alinhadas à realidade de cada negócio — sem fórmulas prontas ou soluções genéricas.</p>
+                                    <div class="mb-20"></div>
+									<div class="menu-all-pages-container">
+                                        <ul class="menu">
+										<li><p class="center"><span><i class="fa-solid  fa-lightbulb" style= "color:#FAD02C"></i> Especialistas em presença digital, tráfego pago e estruturação online.</p></li>										
+										<li><p><span><i class="fa-solid fa-location-dot" style= "color:#FAD02C"></i></span> Atendemos negócios em todo o Brasil com estratégias digitais personalizadas.</p></li>
+                                        <div class="mb-20"></div>
+										</ul>
+                                    </div>
+									<h4 class="title">Acompanhe-nos</h4>
+                                    <div class="ct-social style2">
+                                        <a href="https://www.facebook.com/leadsmidiasdigitaisrs" target="_blank"><i class="fab fa-facebook-f" style= "color:#1877f2"></i></a>
+                                        <a href="https://www.instagram.com/leadsmidiasdigitais/" target="_blank"><i class="fab fa-instagram" style= "color:#FD1D1D"></i></a>
+										<a href="https://www.linkedin.com/company/leadsmidiasdigitais/" target="_blank"><i class="fab fa-linkedin" style= "color:#0a66c2"></i></a>
+										
+                                    </div>
+
+                                </div>
+                            </div>
+                            </div>						
+						</div>
+						
+                    </div>					
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap bg-theme">
+            <div class="container">
+                <div class="copyright-layout">
+                    <div class="layout-text">
+                        <p class="copyright">
+                            © © Leads Midias Digitais 2026 | Todos os Direitos Reservados
+                        </p>
+                    </div>
+                    <div class="layout-link">
+                        <div class="link-wrapper">
+                            <a href="#">Termos do Serviço </a>
+                            <a href="#">Politica de Privacidade</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>  
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Waypoint Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Magnific popup Js >>-->
+    <script src="assets/js/magnific-popup.min.js"></script> 
+    <!--<< NIce Select Js >>-->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+	<!--<< All form >>-->
+	<script>
+
+const scriptURL = "https://script.google.com/macros/s/AKfycbxFS0C7H201zVjuxL-Mb_5hkiaRkgX2JqF6XywDHHMLO_J_rr3AWBzGJL2rtd0FjLZR/exec";
+
+
+// ====================================
+// ELEMENTOS
+// ====================================
+
+const form = document.getElementById("leadForm");
+const obrigado = document.getElementById("mensagem-obrigado");
+
+const formSubtitle = document.getElementById("form-subtitle");
+const formTitle = document.getElementById("form-title");
+
+const tempoForm =
+document.getElementById("tempo-form");
+
+const mensagemNormal =
+document.getElementById("mensagem-normal");
+
+const whatsappPrioritario =
+document.getElementById("whatsapp-prioritario");
+
+const botaoWhatsapp =
+document.getElementById("botao-whatsapp");
+
+
+// ====================================
+// MANYCHAT
+// ====================================
+
+const params = new URLSearchParams(window.location.search);
+
+const origem = params.get("origem") || "Site";
+
+const mc = {
+nome: params.get("nome"),
+objetivo: params.get("objetivo"),
+momento: params.get("momento"),
+investimento: params.get("investimento"),
+urgencia: params.get("urgencia")
+};
+
+
+// ====================================
+// AUTO PREENCHIMENTO
+// ====================================
+
+if(origem === "instagram"){
+
+const origemLead =
+document.getElementById("origemLead");
+
+if(origemLead){
+origemLead.value = origem;
+}
+
+if(mc.nome){
+document.getElementById("nome").value = mc.nome;
+}
+
+if(mc.objetivo){
+document.getElementById("objetivo").value = mc.objetivo;
+}
+
+if(mc.momento){
+document.getElementById("momento").value = mc.momento;
+}
+
+if(mc.investimento){
+document.getElementById("investimento").value =
+mc.investimento;
+}
+
+if(mc.urgencia){
+document.getElementById("urgencia").value =
+mc.urgencia;
+}
+
+}
+
+
+// ====================================
+// ESTADO F5
+// ====================================
+
+window.addEventListener("load", () => {
+
+const enviado =
+localStorage.getItem("formEnviado");
+
+const leadTipo =
+localStorage.getItem("leadTipo");
+
+if(enviado === "true"){
+
+form.style.display = "none";
+
+obrigado.style.display = "block";
+
+
+// LEAD QUENTE
+
+if(leadTipo === "quente"){
+
+mensagemNormal.style.display = "none";
+
+whatsappPrioritario.style.display = "block";
+
+formSubtitle.innerText =
+"Análise prioritária";
+
+formTitle.innerText =
+"Identificada";
+
+}
+
+
+// LEAD NORMAL
+
+else{
+
+mensagemNormal.style.display = "block";
+
+whatsappPrioritario.style.display = "none";
+
+formSubtitle.innerText =
+"Análise recebida";
+
+formTitle.innerText =
+"Com sucesso";
+
+}
+
+}
+
+});
+
+
+// ====================================
+// MULTISTEP
+// ====================================
+
+let etapaAtual = 0;
+
+const etapas =
+document.querySelectorAll(".step");
+
+const subtitles = [
+"Etapa 1",
+"Etapa 2",
+"Etapa 3",
+"Etapa 4",
+"Finalização"
+];
+
+const titles = [
+"Seu momento atual",
+"Seus objetivos",
+"Estrutura e investimento",
+"Prioridade e urgência",
+"Concluir análise"
+];
+
+function atualizarCabecalho(){
+
+formSubtitle.innerText =
+subtitles[etapaAtual];
+
+formTitle.innerText =
+titles[etapaAtual];
+
+}
+
+
+// ====================================
+// PRÓXIMA ETAPA
+// ====================================
+
+function proximaEtapa(){
+
+const atual =
+etapas[etapaAtual];
+
+const select =
+atual.querySelector("select");
+
+if(select && !select.value){
+
+alert("Selecione uma opção.");
+
+return;
+
+}
+
+atual.classList.remove("active");
+
+etapaAtual++;
+
+if(etapaAtual > 0){
+tempoForm.style.display = "none";
+}
+
+if(etapas[etapaAtual]){
+
+etapas[etapaAtual]
+.classList.add("active");
+
+atualizarCabecalho();
+
+}
+
+}
+
+
+// ====================================
+// ETAPA ANTERIOR
+// ====================================
+
+function etapaAnterior(){
+
+if(etapaAtual === 0){
+
+return;
+
+}
+
+etapas[etapaAtual]
+.classList.remove("active");
+
+etapaAtual--;
+
+if(etapaAtual === 0){
+tempoForm.style.display = "block";
+}
+
+etapas[etapaAtual]
+.classList.add("active");
+
+atualizarCabecalho();
+
+}
+
+
+// ====================================
+// ENVIO
+// ====================================
+
+
+
+form.addEventListener("submit", async (e) => {
+
+e.preventDefault();
+
+const btnEnviar =
+document.getElementById("btnEnviar");
+
+btnEnviar.disabled = true;
+
+btnEnviar.innerHTML =
+'Enviando...';
+
+
+// CAMPOS
+
+const nome =
+document.getElementById("nome").value;
+
+const telefone =
+document.getElementById("telefone").value;
+
+const email =
+document.getElementById("email").value;
+
+const momento =
+document.getElementById("momento").value;
+
+const objetivo =
+document.getElementById("objetivo").value;
+
+const investimento =
+document.getElementById("investimento").value;
+
+const urgencia =
+document.getElementById("urgencia").value;
+
+const mensagem =
+document.getElementById("mensagem").value;
+
+
+// ====================================
+// LEAD QUENTE
+// ====================================
+
+const leadQuente =
+
+momento === "Já tenho algo rodando"
+
+&&
+
+(
+
+investimento === "Acima de R$3.000"
+
+||
+
+(
+
+investimento === "R$1.000 a R$3.000"
+
+&&
+
+urgencia !== "O mais rápido possível "
+
+)
+
+);
+// ====================================
+// CLASSIFICAÇÃO
+// ====================================
+
+const classificacao =
+leadQuente
+? "Quente"
+: "Normal";
+
+
+// ====================================
+// FORM DATA
+// ====================================
+
+const formData = new FormData();
+
+formData.append("cliente", "Leads");
+formData.append("nome", nome);
+formData.append("telefone", telefone);
+formData.append("email", email);
+
+formData.append("momento", momento);
+formData.append("objetivo", objetivo);
+formData.append("investimento", investimento);
+formData.append("urgencia", urgencia);
+
+formData.append("mensagem", mensagem);
+
+formData.append("origem", origem);
+
+formData.append("classificacao",classificacao);
+
+
+// ====================================
+// ENVIO GOOGLE SHEETS
+// ====================================
+
+try{
+
+await fetch(scriptURL, {
+method: "POST",
+body: formData,
+});
+
+
+// ====================================
+// SALVA ESTADO
+// ====================================
+
+localStorage.setItem(
+"formEnviado",
+"true"
+);
+
+localStorage.setItem(
+"leadTipo",
+leadQuente ? "quente" : "normal"
+);
+
+
+// ====================================
+// TROCA VISUAL
+// ====================================
+
+form.style.display = "none";
+
+obrigado.style.display = "block";
+
+
+// ====================================
+// LEAD QUENTE
+// ====================================
+
+if(leadQuente){
+
+mensagemNormal.style.display =
+"none";
+
+whatsappPrioritario.style.display =
+"block";
+
+formSubtitle.innerText =
+"Análise prioritária";
+
+formTitle.innerText =
+"Identificada";
+
+
+const texto = encodeURIComponent(
+`Olá, acabei de preencher a análise digital.
+
+Nome: ${nome}
+Objetivo: ${objetivo}
+Momento: ${momento}
+Investimento: ${investimento}
+Urgência: ${urgencia}
+Mensagem: ${mensagem}`
+);
+
+
+botaoWhatsapp.href =
+
+`https://wa.me/5548999999999?text=${texto}`;
+
+}
+
+
+// ====================================
+// LEAD NORMAL
+// ====================================
+
+else{
+
+mensagemNormal.style.display =
+"block";
+
+whatsappPrioritario.style.display =
+"none";
+
+formSubtitle.innerText =
+"Análise recebida";
+
+formTitle.innerText =
+"Com sucesso";
+
+}
+
+}catch(error){
+
+console.error(error);
+
+alert("Erro ao enviar.");
+
+}
+
+});
+
+
+// ====================================
+// RESET
+// ====================================
+
+function reiniciarFormulario(){
+
+localStorage.removeItem("formEnviado");
+
+localStorage.removeItem("leadTipo");
+
+form.reset();
+
+form.style.display = "block";
+
+obrigado.style.display = "none";
+
+mensagemNormal.style.display =
+"block";
+
+whatsappPrioritario.style.display =
+"none";
+
+
+// RESET MULTISTEP
+
+etapas.forEach((etapa) => {
+
+etapa.classList.remove("active");
+
+});
+
+etapaAtual = 0;
+
+etapas[0].classList.add("active");
+
+
+// TÍTULOS
+
+formSubtitle.innerText =
+"Comece aqui";
+
+formTitle.innerText =
+"Análise Digital";
+
+}
+
+</script>
+
+	<!--<< All form >>-->
+</body>
+
+</html>
+
+
+
+
+
+
